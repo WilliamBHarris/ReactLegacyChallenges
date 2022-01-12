@@ -27,7 +27,7 @@ export default class DogIndex extends Component {
         return (
         <div>
             <h1>Here is your dog:</h1>
-            <img src={this.state.dogImage} alt="dog" />
+            <img className='imgsize' src={this.state.dogImage} alt="dog" />
             <button onClick={() => this.getDogImage()}>Get a new dog</button>
         </div>
         );
